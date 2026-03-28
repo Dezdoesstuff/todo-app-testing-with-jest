@@ -34,7 +34,7 @@ const AddTodo = ({ add }) => {
           type="submit"
           data-testid="submit-btn"
           className="ui button teal"
-        
+        >
           Add
         </button>
       </div>
