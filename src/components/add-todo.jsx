@@ -27,7 +27,7 @@ const AddTodo = ({ add }) => {
           type="text"
           name="new-item"
           id="new-item"
-          placeholder="Add a new todo"
+          placeholder="Have a new task you want to add?"
           ref={inputRef}
         />
         <button
