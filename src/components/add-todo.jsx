@@ -29,7 +29,7 @@ const AddTodo = ({ add }) => {
           id="new-item"
           placeholder="Create a new task!"
           ref={inputRef}
-        />
+        
         <button
           type="submit"
           data-testid="submit-btn"
