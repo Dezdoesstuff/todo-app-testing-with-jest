@@ -27,14 +27,14 @@ const AddTodo = ({ add }) => {
           type="text"
           name="new-item"
           id="new-item"
-          placeholder="Enter your task here!"
+          placeholder="Have a new task you want to add?"
           ref={inputRef}
         />
         <button
           type="submit"
           data-testid="submit-btn"
           className="ui button teal"
-        >
+        
           Add
         </button>
       </div>
